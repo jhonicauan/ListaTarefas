@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-#LoginUserContainer{
+#RegisterUserContainer{
     border-style: solid ;
     border-radius: 10px;
     border-color: white;
@@ -27,7 +27,7 @@
     padding-top: 20px;
 }
 
-#LoginForm{
+#RegisterForm{
     flex: 1;
     background-color: rgb(31, 31, 31);
     display: flex;
@@ -35,12 +35,12 @@
     flex-direction: column;
 }
 
-#LoginForm h2{
+#RegisterForm h2{
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-#LoginForm input{
+#RegisterForm input{
     margin-top: 50px;
     height: 35px;
     width: 300px;
@@ -54,16 +54,15 @@
     outline: none;
 }
 
-#LoginForm input::placeholder{
+#RegisterForm input::placeholder{
     color: white;
 }
 
-#LoginForm button{
+#RegisterForm button{
     background-color: white;
     color: black;
     margin-left: 50px;
     margin-top: 20px;
-    margin-bottom: 30px;
     width: 200px;
     border-radius: 5px;
     height: 30px;
@@ -82,3 +81,10 @@
     align-items: center;
 }
 
+
+#login{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+}
