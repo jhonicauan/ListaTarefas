@@ -14,6 +14,13 @@ function MyTasks(){
     const navigate = useNavigate();
     const [task,setTask] = useState<Task[]>([]);
 
+    useEffect(()=>{
+        if(localStorage.getItem("session") == null){
+            navigate("/");
+        }
+     },[navigate]);
+     
+     
     async function getDivs(){
         const id = localStorage.getItem("session");
         const link = "http://localhost:8080/tasks/viewAllTasks/"+id;
