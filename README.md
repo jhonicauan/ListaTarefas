@@ -10,10 +10,13 @@ Tecnologias Utilizadas no Programa
 ________________________________________________
 Configurando o front-end (utilize como pasta base listaTarefas)
 1) siga os comandos abaixo para configurar
-   cd ./Front-End
+
+   cd ./Front-End 
+
    npm i
 
 2) para iniciar o front use
+
    npm run dev
 
 ________________________________________________
@@ -34,6 +37,8 @@ Para testar o programa utilize
 
 1) Back-End: Execute ListaTarefasAplication.java
 2) Front-End: Execute os comandos
+
    cd ./Front-End
+
    npm run dev
 ________________________________________________
