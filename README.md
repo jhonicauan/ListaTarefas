@@ -2,10 +2,15 @@ ________________________________________________
 Tecnologias Utilizadas no Programa
 
 -Projeto React criado com vite
+
 -Typescript
+
 -Java 17
+
 -Maven
+
 -Java Spring
+
 -postgres
 ________________________________________________
 Configurando o front-end (utilize como pasta base listaTarefas)
