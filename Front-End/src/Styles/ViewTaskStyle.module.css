@@ -1,0 +1,70 @@
+.taskContainer {
+    height: 500px;
+    width: 800px;
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(39,39,39);
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: rgb(255, 251, 190);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.title a {
+    position: absolute; 
+    left: 10px;          
+    text-decoration: none;  
+    color: red;        
+}
+
+.title div {
+    text-align: center;
+    flex-grow: 1;         /* Faz o título ocupar o restante do espaço */
+}
+
+.content {
+    color: white;
+    flex-grow: 1;  /* O conteúdo irá crescer para ocupar o espaço restante */
+    padding: 10px;
+    white-space: pre-line;
+    overflow-y: auto;  /* Permite rolagem se o conteúdo exceder a altura disponível */
+}
+
+.footer {
+    background-color: rgb(255, 251, 190);
+    height: 50px; /* Altura fixa para o rodapé */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    flex-shrink: 0;  /* Impede que o footer encolha */
+}
+
+.footer button {
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.complete{
+    background-color: green;
+}
+
+.restart{
+    background-color: red;
+}
+
+.update{
+    background-color: blue;
+}
